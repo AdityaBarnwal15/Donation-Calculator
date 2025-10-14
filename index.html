@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>🌱 Jamuna Foundation Donation Calculator</h1>
+
+        <div class="main-section">
+            <!-- Left: Donation Inputs -->
+            <div class="donation-section">
+                <div class="input-group">
+                    <label for="meal">Number of Meals (₹50 each):</label>
+                    <input type="number" id="meal" value="0" min="0">
+                </div>
+
+                <div class="input-group">
+                    <label for="tree">Number of Trees (₹200 each):</label>
+                    <input type="number" id="tree" value="0" min="0">
+                </div>
+
+                <div class="input-group">
+                    <label for="water">Number of Water Bottles (₹20 each):</label>
+                    <input type="number" id="water" value="0" min="0">
+                </div>
+
+                <div class="input-group">
+                    <label for="book">Number of Books (₹150 each):</label>
+                    <input type="number" id="book" value="0" min="0">
+                </div>
+
+                <div class="input-group">
+                    <label for="clothes">Number of Clothes (₹250 each):</label>
+                    <input type="number" id="clothes" value="0" min="0">
+                </div>
+
+                <div class="input-group">
+                    <label for="medical">Number of Medical Kits (₹500 each):</label>
+                    <input type="number" id="medical" value="0" min="0">
+                </div>
+
+                <div class="input-group">
+                    <label for="animalMeal">Number of Animal Meals (₹100 each):</label>
+                    <input type="number" id="animalMeal" value="0" min="0">
+                </div>
+
+                <div class="input-group total">
+                    <label>Total Donation:</label>
+                    <p id="total">₹0</p>
+                </div>
+
+                <div class="buttons">
+                    <button id="addMeal">Add Meal</button>
+                    <button id="addTree">Plant Tree</button>
+                    <button id="addWater">Add Water Bottle</button>
+                    <button id="addBook">Add Book</button>
+                    <button id="addClothes">Add Clothes</button>
+                    <button id="addMedical">Add Medical Kit</button>
+                    <button id="addAnimalMeal">Add Animal Meal</button>
+                    <button id="reset">Reset</button>
+                </div>
+            </div>
+
+            <!-- Right: Visuals -->
+            <div class="visuals">
+                <div class="visual-card">
+                    <h2>🍛 Meals</h2>
+                    <p id="mealVisual">0</p>
+                </div>
+                <div class="visual-card">
+                    <h2>🌳 Trees</h2>
+                    <p id="treeVisual">0</p>
+                </div>
+                <div class="visual-card">
+                    <h2>💧 Water Bottles</h2>
+                    <p id="waterVisual">0</p>
+                </div>
+                <div class="visual-card">
+                    <h2>📚 Books</h2>
+                    <p id="bookVisual">0</p>
+                </div>
+                <div class="visual-card">
+                    <h2>👕 Clothes</h2>
+                    <p id="clothesVisual">0</p>
+                </div>
+                <div class="visual-card">
+                    <h2>🩺 Medical Kits</h2>
+                    <p id="medicalVisual">0</p>
+                </div>
+                <div class="visual-card">
+                    <h2>🐶🐱 Animal Meals</h2>
+                    <p id="animalMealVisual">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
