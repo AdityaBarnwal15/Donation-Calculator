@@ -93,6 +93,7 @@ Aditya Barnwal
 📫 Connect with me on:
 
 GitHub - https://github.com/AdityaBarnwal15
+
 LinkedIn - https://linkedin.com/in/adityabarnwal
 
 🧾 License
